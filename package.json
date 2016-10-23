@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Amazon like store front",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gudiaz/Bamazon.git"
+  },
+  "author": "Graciela Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gudiaz/Bamazon/issues"
+  },
+  "homepage": "https://github.com/gudiaz/Bamazon#readme",
+  "dependencies": {
+    "mysql": "^2.11.1",
+    "prompt": "^1.0.0"
+  }
+}
