@@ -72,7 +72,7 @@ function checkAvailability(item, qty) {
 	if (newStockQty > 0) {
 		placeOrder(item, qty);
 	} else {
-		console.log("Sorry, but there are not enough of the item in stock. There are " + item.StockQuantity + " items available.")
+		console.log("Sorry, but there are not enough of the item in stock. There are " + item.StockQuantity + " items available.\n\n")
 		promptOrder();
 	}
 }
@@ -86,7 +86,7 @@ function placeOrder(item, qty) {
 	 	if (err) throw err;
 		var total = qty * item.Price;
 
-		console.log("Your order for " + item.ProductName + " has been placed. Your total is $" + total + ".\nThank you for shopping at Bamazon!")
+		console.log("Your order for " + item.ProductName + " has been placed. Your total is $" + total + ".\nThank you for shopping at Bamazon!\n\n")
 		console.log("New Stock Quantity for " + item.ProductName + " is: " + newStockQty);
 
 		promptOrder();
