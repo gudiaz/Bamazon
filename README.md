@@ -2,6 +2,6 @@
 
 
 
-![List of Products]("./ListOfProducts")
-![Order Placed]("./OrderPlaced")
-![Out of Stock]("./OutOfStock")
+![List of Products]("./ListOfProducts.jpg")
+![Order Placed]("./OrderPlaced.jpg")
+![Out of Stock]("./OutOfStock.jpg")
